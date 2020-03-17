@@ -1,5 +1,6 @@
 # FilmTrackTest
 Node_Modules Not included, to run please run command:
+cd lightbulbchallengeapp
 npm install
 
 #Note
