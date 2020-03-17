@@ -1,0 +1,16 @@
+<div class="login-page">
+  <div class="form">
+    <form class="login-form">
+      <label>Number of People</label>
+      <input type="text" onkeypress="return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 && event.charCode <= 57" [(ngModel)]="numberOfPeople" [ngModelOptions]="{standalone: true}" required>
+      <label>Number of Light Bulbs</label>
+      <input type="text" onkeypress="return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 && event.charCode <= 57" [(ngModel)]="numberOfLightbulbs" [ngModelOptions]="{standalone: true}" required>
+      <button (click)="solveProblem()">Find Solution</button>
+      <div>
+        <div *ngFor="let response of lightBulbCalculatorService.lightBulbProblemResponses; let i = index">
+          <h2>{{response}}</h2>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
