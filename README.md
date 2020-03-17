@@ -2,6 +2,7 @@
 Node_Modules Not included, to run please run command:
 cd lightbulbchallengeapp
 npm install
+#May also need to run npm audit fix
 
 #Note
 I used the latest versions of AngularCLI.  There are some known bugs with UseAngularCliServer in Startup.cs
