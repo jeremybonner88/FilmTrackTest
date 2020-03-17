@@ -73,7 +73,7 @@ namespace LightBulbChallenge
                 {
                     spa.Options.SourcePath = "LightBulbChallengeApp";
                     spa.UseAngularCliServer(npmScript: "start");
-                    spa.Options.StartupTimeout = TimeSpan.FromSeconds(200);
+                    //spa.Options.StartupTimeout = TimeSpan.FromSeconds(200);
                 }
                 else
                 {
