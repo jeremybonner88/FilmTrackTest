@@ -16,8 +16,8 @@ export class LightBulbCalculatorComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.numberOfPeople = 0;
-    this.numberOfLightbulbs = 0;
+    this.numberOfPeople = 1;
+    this.numberOfLightbulbs = 1;
   }
 
   solveProblem() {
